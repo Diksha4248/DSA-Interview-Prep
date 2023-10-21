@@ -54,7 +54,8 @@ void delete_all_key(node * &head,int key){
 
 int main()
 {
-    node *head = NULL;
+    // node *head = new node(5);
+    node * head = NULL;
 
     insert_node(head,4);
     insert_node(head,3);
