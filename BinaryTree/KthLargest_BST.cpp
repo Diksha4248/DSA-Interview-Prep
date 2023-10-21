@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// gfg : https://www.youtube.com/watch?v=QavTg43VDsU
+// striver : https://www.youtube.com/watch?v=9TJYWh0adfk
+
 class node{
 
     public:
