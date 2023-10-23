@@ -28,13 +28,13 @@ void inorder(node *root){
 // Traversal = preorder Root Left Right because we need left node first
 int level = 0;
 vector <int> v;
-void right_view(node *root, int level){
+void left_view(node *root, int level){
     if(root == NULL)
         return;
 
     if(level == v.size()) v.push_back(root->data)  ;
-    right_view(root->left,level + 1);
-    right_view(root->right, level + 1);  
+    left_view(root->left,level + 1);
+    left_view(root->right, level + 1);  
 }
 
 int main()
@@ -52,7 +52,7 @@ int main()
     cout<<"Inorder traversal : "<<endl;
     inorder(root);
 
-    right_view(root,level);
+    left_view(root,level);
     cout<<"The Left view of Tree is : "<<endl;
     for (int i=0;i<v.size();i++){
         cout<<v[i]<<" ";
