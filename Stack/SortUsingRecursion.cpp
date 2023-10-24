@@ -3,7 +3,8 @@ using namespace std;
 
 // https://www.youtube.com/watch?v=XNAv8NrAwng
 
-
+// Time Complexity : O(N*N)
+// Space Complexity : O(N) recursive
 void PrintStack(stack<int> s)
 {
     // If stack is empty
