@@ -87,7 +87,7 @@ int main(){
     display(head);
 
     cout<<"Reversing till given position/node : "<<endl;
-    reverse_pos(head,4);
+    reverse_pos(head,2);
     display(head);
 
     return 0;
